@@ -1,4 +1,11 @@
-# fast-django-backend-template.
+# aws-ec2-django-deployment-project
+
+> This project was bootstrapped from this template: **https://github.com/Okpainmo/multi-db-nodejs-express-with-typescript-and-zod-template**. All the below README guides are for the
+> original template setup.
+
+**Read [this awesome article](https://blog.zedlabs.xyz/cloud-and-devops/complete-docker-python-back-end-deployment-on-aws-ec2) to learn how to deploy a production-grade NodeJs/ExpressJs API server that is built with this template**
+
+---
 
 A modular, and highly flexible Python Django(with the Django Ninja framework) template, for easily bootstrapping Django projects, and building super-fast backends/servers. 
 
@@ -98,7 +105,7 @@ source env/Scripts/activate
 > linux/mac:
 
 ```shell
-source venv/bin/activate
+source env/bin/activate
 ```
 
 4. Check and ensure that the desired/created virtual environment is what you are currently logged on(especially in a case where the dependencies seem not to be getting installed, and/or if they seem not to be reflecting in the requirements file after installation - even after running `pip freeze > requirements.txt`).
@@ -118,7 +125,7 @@ pip install -r requirements.txt
 **or, with new version installations(ensure to delete the `requirement.txt` file first)**:
 
 ```bash
-pip install Django django-ninja python-dotenv psycopg2-binary gunicorn "uvicorn[standard]" black pylint pylint-django pre-commit PyJWT structlog[json]
+pip install Django django-ninja python-dotenv psycopg2 psycopg2-binary gunicorn "uvicorn[standard]" black pylint pylint-django pre-commit PyJWT structlog[json]
 # in progress
 ```
 
